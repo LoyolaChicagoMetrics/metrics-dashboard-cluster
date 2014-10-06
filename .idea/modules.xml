@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-cluster-example.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-cluster-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-cluster-example-build.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-cluster-example-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-cluster-scala.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-cluster-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/akka-sample-cluster-scala-build.iml" filepath="$PROJECT_DIR$/.idea_modules/akka-sample-cluster-scala-build.iml" />
     </modules>
   </component>
 </project>

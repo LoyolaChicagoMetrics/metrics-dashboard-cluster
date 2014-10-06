@@ -1,8 +1,9 @@
-package sample.cluster.simple
+package simple
 
 import com.typesafe.config.ConfigFactory
 import akka.actor.ActorSystem
 import akka.actor.Props
+import sample.cluster.simple.SimpleClusterListener2
 
 object SimpleClusterApp {
   def main(args: Array[String]): Unit = {
