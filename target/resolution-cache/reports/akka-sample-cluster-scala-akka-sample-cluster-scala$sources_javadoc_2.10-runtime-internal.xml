@@ -7,7 +7,7 @@
 		revision="2.4-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, multi-jvm, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20141006141552"/>
+		date="20141006144330"/>
 	<dependencies>
 		<module organisation="org.fusesource" name="sigar">
 			<revision name="1.6.4" status="release" pubdate="20110322140456" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="18">

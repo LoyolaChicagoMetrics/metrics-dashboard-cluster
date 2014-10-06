@@ -18,12 +18,12 @@ val project = Project(
       "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
       "com.typesafe.akka" %% "akka-contrib" % akkaVersion,
       "com.typesafe.akka" %% "akka-multi-node-testkit" % akkaVersion,
-      "org.scalatest" %% "scalatest" % "2.0" % "test"),
-//      "org.fusesource" % "sigar" % "1.6.4"),
+      "org.scalatest" %% "scalatest" % "2.0" % "test",
+      "org.fusesource" % "sigar" % "1.6.4"),
     javaOptions in run ++= Seq(
       "-Djava.library.path=./sigar",
       "-Xms128m", "-Xmx1024m"),
-    Keys.fork in run := true,
+    Keys.fork in run := true,  
     mainClass in (Compile, run) := Some("sample.cluster.simple.SimpleClusterApp"),
     // make sure that MultiJvm test are compiled by the default test compilation
     compile in MultiJvm <<= (compile in MultiJvm) triggeredBy (compile in Test),

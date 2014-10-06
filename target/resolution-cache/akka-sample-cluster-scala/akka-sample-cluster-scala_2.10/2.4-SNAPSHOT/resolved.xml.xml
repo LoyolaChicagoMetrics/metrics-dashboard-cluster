@@ -4,7 +4,7 @@
 		module="akka-sample-cluster-scala_2.10"
 		revision="2.4-SNAPSHOT"
 		status="integration"
-		publication="20141006141811"
+		publication="20141006144240"
 	>
 		<description>
 		akka-sample-cluster-scala
@@ -39,5 +39,6 @@
 		<dependency org="com.typesafe.akka" name="akka-contrib_2.10" rev="2.4-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.akka" name="akka-multi-node-testkit_2.10" rev="2.4-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.10" rev="2.0" conf="test->default(compile)"/>
+		<dependency org="org.fusesource" name="sigar" rev="1.6.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

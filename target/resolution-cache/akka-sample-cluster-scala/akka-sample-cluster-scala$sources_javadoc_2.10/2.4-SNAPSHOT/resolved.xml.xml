@@ -4,7 +4,7 @@
 		module="akka-sample-cluster-scala$sources_javadoc_2.10"
 		revision="2.4-SNAPSHOT"
 		status="integration"
-		publication="20141006141552"
+		publication="20141006144330"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
