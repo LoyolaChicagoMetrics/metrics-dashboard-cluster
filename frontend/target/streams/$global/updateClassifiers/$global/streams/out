@@ -1,0 +1,820 @@
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: frontend#frontend$sources_javadoc_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for frontend#frontend$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4457e2f7[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving common#common_2.10;1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e8da438[0m
+[0m[[0mdebug[0m] [0m	found common#common_2.10;1.0 in inter-project[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-cluster_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2561201f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-cluster_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-cluster_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e225ee2[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-remote_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-remote_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4368ab46[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@211311fe[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.5.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26dcfdfb[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.protobuf#protobuf-java;2.5.0[0m
+[0m[[0mdebug[0m] [0m	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@401ede39[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
+[0m[[0mdebug[0m] [0m	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-contrib_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@348a2f80[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-contrib_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-contrib_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-contrib_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59139826[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb;0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55a43242[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.iq80.leveldb#leveldb;0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.iq80.leveldb#leveldb;0.5[0m
+[0m[[0mdebug[0m] [0m	found org.iq80.leveldb#leveldb;0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb-api;0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a064c61[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.iq80.leveldb#leveldb-api;0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.iq80.leveldb#leveldb-api;0.5[0m
+[0m[[0mdebug[0m] [0m	found org.iq80.leveldb#leveldb-api;0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;12.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a4adf2d[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;12.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.guava#guava;12.0[0m
+[0m[[0mdebug[0m] [0m	found com.google.guava#guava;12.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-all;1.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@139e8534[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-all;1.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni-all;1.7[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni-all;1.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni;1.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32a1304a[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni;1.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni;1.7[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni;1.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.hawtjni#hawtjni-runtime;1.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cafb683[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.hawtjni#hawtjni-runtime;1.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.hawtjni#hawtjni-runtime;1.8[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.hawtjni#hawtjni-runtime;1.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#twirl-api_2.10;1.0.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5332c5fd[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.10;1.0.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#twirl-api_2.10;1.0.2[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#twirl-api_2.10;1.0.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-lang3;3.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e4e7259[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.commons#commons-lang3;3.1[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-lang3;3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play_2.10;2.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5054590d[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play_2.10;2.3.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#build-link;2.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e54fb06[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#build-link;2.3.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#build-link;2.3.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#build-link;2.3.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-exceptions;2.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69a085c1[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.3.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-exceptions;2.3.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-exceptions;2.3.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.18.2-GA ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3184f81f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.javassist#javassist;3.18.2-GA[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.javassist#javassist;3.18.2-GA[0m
+[0m[[0mdebug[0m] [0m	found org.javassist#javassist;3.18.2-GA in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-iteratees_2.10;2.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@706b0c89[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-iteratees_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-iteratees_2.10;2.3.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-stm#scala-stm_2.10;0.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bb9f003[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.10;0.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-stm#scala-stm_2.10;0.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-stm#scala-stm_2.10;0.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-json_2.10;2.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d0429fe[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-json_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-json_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-json_2.10;2.3.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-functional_2.10;2.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d2efc2[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-functional_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-functional_2.10;2.3.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.play#play-datacommons_2.10;2.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32eea79d[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.play#play-datacommons_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.play#play-datacommons_2.10;2.3.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fdbcd95[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: joda-time#joda-time;2.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: joda-time#joda-time;2.3[0m
+[0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79585e2a[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.joda#joda-convert;1.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.joda#joda-convert;1.6[0m
+[0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4bb644d3[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-annotations;2.3.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@310e0e72[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.3.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-core;2.3.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.3.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@edd5a57[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-databind;2.3.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c32942e[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.9.3.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e64621f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.9.3.Final[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.9.3.Final[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.9.3.Final in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.netty#netty-http-pipelining;1.1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45b8ed5[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.netty#netty-http-pipelining;1.1.2[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.netty#netty-http-pipelining;1.1.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18544823[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.6[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jul-to-slf4j;1.7.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bea8315[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.6[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#jul-to-slf4j;1.7.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#jcl-over-slf4j;1.7.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43e1ef1b[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.6[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#jcl-over-slf4j;1.7.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45961ec4[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-core;1.1.1[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a79e5f7[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-classic;1.1.1[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.10;2.3.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a39aa16[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.3.4[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-slf4j_2.10;2.3.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.9 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@477db6d2[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.9[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-codec#commons-codec;1.9[0m
+[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.9 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving xerces#xercesImpl;2.11.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@105db0da[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: xerces#xercesImpl;2.11.0[0m
+[0m[[0mdebug[0m] [0m	found xerces#xercesImpl;2.11.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.4.01 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@220959c9[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: xml-apis#xml-apis;1.4.01[0m
+[0m[[0mdebug[0m] [0m	found xml-apis#xml-apis;1.4.01 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving javax.transaction#jta;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76d8593f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.transaction#jta;1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: javax.transaction#jta;1.1[0m
+[0m[[0mdebug[0m] [0m	found javax.transaction#jta;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for frontend#frontend$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for frontend#frontend$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for frontend#frontend$sources_javadoc_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for frontend#frontend$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for frontend#frontend$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies frontend#frontend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->default(compile)][0m

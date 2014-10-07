@@ -6,4 +6,4 @@ sbt "run-main sample.cluster.transformation.SimpleClusterApp 2551"
 sbt "run-main sample.cluster.transformation.SimpleClusterApp 2552"
 
 Then run this on 192.168.1.2 frontend:
-sbt "run-main sample.cluster.transformation.SimpleClusterApp 0"
+sbt "project frontend" run

@@ -1,0 +1,1217 @@
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: backend#backend$sources_javadoc_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f083e77[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving common#common_2.10;1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bf2502f[0m
+[0m[[0mdebug[0m] [0m	found common#common_2.10;1.0 in inter-project[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-cluster_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f4f221c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-cluster_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-cluster_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-cluster_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78081b7b[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-remote_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-remote_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41c8252c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33a841be[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.8.0.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b13607b[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.8.0.Final[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.8.0.Final in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.5.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58ccb0b4[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.protobuf#protobuf-java;2.5.0[0m
+[0m[[0mdebug[0m] [0m	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41318736[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
+[0m[[0mdebug[0m] [0m	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-contrib_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@50547013[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-contrib_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-contrib_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-contrib_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1472b3c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb;0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3792c3ee[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.iq80.leveldb#leveldb;0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.iq80.leveldb#leveldb;0.5[0m
+[0m[[0mdebug[0m] [0m	found org.iq80.leveldb#leveldb;0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.iq80.leveldb#leveldb-api;0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@120c2a13[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.iq80.leveldb#leveldb-api;0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.iq80.leveldb#leveldb-api;0.5[0m
+[0m[[0mdebug[0m] [0m	found org.iq80.leveldb#leveldb-api;0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.google.guava#guava;12.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5333f5ff[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.guava#guava;12.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.guava#guava;12.0[0m
+[0m[[0mdebug[0m] [0m	found com.google.guava#guava;12.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni-all;1.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34552f62[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-all;1.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni-all;1.7[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni-all;1.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.leveldbjni#leveldbjni;1.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f342b5b[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni;1.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.leveldbjni#leveldbjni;1.7[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.leveldbjni#leveldbjni;1.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.hawtjni#hawtjni-runtime;1.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5251fd99[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.hawtjni#hawtjni-runtime;1.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.hawtjni#hawtjni-runtime;1.8[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.hawtjni#hawtjni-runtime;1.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->common#common_2.10;1.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-cluster_2.10;2.3.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-remote_2.10;2.3.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->io.netty#netty;3.8.0.Final [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.protobuf#protobuf-java;2.5.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-contrib_2.10;2.3.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb;0.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.iq80.leveldb#leveldb-api;0.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->com.google.guava#guava;12.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni-all;1.7 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.leveldbjni#leveldbjni;1.7 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.hawtjni#hawtjni-runtime;1.8 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for backend#backend$sources_javadoc_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.scala-lang#jline;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies backend#backend$sources_javadoc_2.10;1.0->org.fusesource.jansi#jansi;1.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.10;2.3.6!akka-cluster_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.10;2.3.6!akka-cluster_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-cluster_2.10;2.3.6!akka-cluster_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.3.6!akka-remote_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.3.6!akka-remote_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.3.6!akka-remote_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.6!akka-actor_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.6!akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.6!akka-actor_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-contrib_2.10;2.3.6!akka-contrib_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-contrib_2.10;2.3.6!akka-contrib_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-contrib_2.10;2.3.6!akka-contrib_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6!akka-persistence-experimental_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6!akka-persistence-experimental_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-persistence-experimental_2.10;2.3.6!akka-persistence-experimental_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.iq80.leveldb#leveldb;0.5!leveldb.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.iq80.leveldb#leveldb;0.5!leveldb.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.iq80.leveldb#leveldb;0.5!leveldb.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.iq80.leveldb#leveldb-api;0.5!leveldb-api.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.iq80.leveldb#leveldb-api;0.5!leveldb-api.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.iq80.leveldb#leveldb-api;0.5!leveldb-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;12.0!guava.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;12.0!guava.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.guava#guava;12.0!guava.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.7!leveldbjni-all.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.7!leveldbjni-all.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.7!leveldbjni-all.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni;1.7!leveldbjni.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni;1.7!leveldbjni.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni;1.7!leveldbjni.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.hawtjni#hawtjni-runtime;1.8!hawtjni-runtime.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.hawtjni#hawtjni-runtime;1.8!hawtjni-runtime.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.hawtjni#hawtjni-runtime;1.8!hawtjni-runtime.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 816ms :: artifacts dl 64ms[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 compile produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 runtime produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 test produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 provided produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 optional produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 compile-internal produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 runtime-internal produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 test-internal produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 plugin produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 sources produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 docs produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 pom produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for backend#backend$sources_javadoc_2.10;1.0 scala-tool produced in /Users/mdotson/akka-cluster-example/backend/target/resolution-cache/reports/backend-backend$sources_javadoc_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (816ms resolve - 64ms download)[0m
