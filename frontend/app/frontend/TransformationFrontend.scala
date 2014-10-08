@@ -1,6 +1,8 @@
-package sample.cluster.transformation
+package frontend
 
-//import common.{BackendRegistration, JobFailed, TransformationJob}
+import common.{BackendRegistration, JobFailed, TransformationJob}
+
+//import sample.cluster.transformation.{BackendRegistration, JobFailed, TransformationJob}
 
 import language.postfixOps
 import scala.concurrent.duration._

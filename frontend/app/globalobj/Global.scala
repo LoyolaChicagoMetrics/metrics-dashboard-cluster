@@ -1,8 +1,9 @@
 package globalobj
 
 //import frontend.TransformationFrontend
+
+import frontend.TransformationFrontend
 import play.api.{Application, GlobalSettings}
-import sample.cluster.transformation.TransformationFrontend
 
 object Global extends GlobalSettings {
 
