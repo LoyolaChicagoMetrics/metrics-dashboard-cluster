@@ -1,14 +1,15 @@
-package sample.cluster.transformation
+package frontend
 
-import common.{BackendRegistration, JobFailed, TransformationJob}
+import java.util.concurrent.atomic.AtomicInteger
 
-import language.postfixOps
-import scala.concurrent.duration._
-import akka.actor._
+import akka.actor.{Actor, ActorRef, ActorSystem, Props, Terminated}
 import akka.pattern.ask
 import akka.util.Timeout
 import com.typesafe.config.ConfigFactory
-import java.util.concurrent.atomic.AtomicInteger
+import common.{BackendRegistration, JobFailed, TransformationJob}
+
+import scala.concurrent.duration._
+import scala.language.postfixOps
 
 //#frontend
 class TransformationFrontend extends Actor {

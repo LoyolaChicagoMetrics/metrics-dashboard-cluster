@@ -1,9 +1,7 @@
 package globalobj
 
-import akka.actor.{Props, ActorSystem}
-import com.typesafe.config.ConfigFactory
+import frontend.TransformationFrontend
 import play.api.{Application, GlobalSettings}
-import sample.cluster.transformation.{TransformationBackend, TransformationFrontend}
 
 /**
  * Created by mdotson on 10/7/14.
