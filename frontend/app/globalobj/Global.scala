@@ -1,11 +1,9 @@
 package globalobj
 
-import frontend.TransformationFrontend
+//import frontend.TransformationFrontend
 import play.api.{Application, GlobalSettings}
+import sample.cluster.transformation.TransformationFrontend
 
-/**
- * Created by mdotson on 10/7/14.
- */
 object Global extends GlobalSettings {
 
    /**

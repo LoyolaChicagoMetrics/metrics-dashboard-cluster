@@ -1,4 +1,4 @@
-package common
+package sample.cluster.transformation
 
 final case class TransformationResult(text: String)
 

@@ -4,7 +4,7 @@ import akka.actor.{Actor, ActorSystem, Props, RootActorPath}
 import akka.cluster.ClusterEvent.{CurrentClusterState, MemberUp}
 import akka.cluster.{Cluster, Member, MemberStatus}
 import com.typesafe.config.ConfigFactory
-import common.{BackendRegistration, TransformationJob, TransformationResult}
+import sample.cluster.transformation.{BackendRegistration, TransformationJob, TransformationResult}
 
 import scala.language.postfixOps
 
