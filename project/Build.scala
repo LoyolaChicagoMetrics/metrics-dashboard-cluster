@@ -1,10 +1,10 @@
 import sbt._
-import Keys._
+import sbt.Keys._
 import play.PlayScala
+import sbtassembly.Plugin._
+import AssemblyKeys._
 
 object MetricsBuild extends Build {
-
-  val akkaVersion = "2.3.6"
 
   scalaVersion := "2.11.2"
 
@@ -15,8 +15,7 @@ object MetricsBuild extends Build {
   )
 
   val akkaDeps = Seq(
-    "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
-    "com.typesafe.akka" %% "akka-contrib" % akkaVersion
+    Dependency.akkaCluster, Dependency.akkaKernel, Dependency.akkaContrib
   )
 
   lazy val root = project.in(file(".")).aggregate(frontend, backend, common)
@@ -25,11 +24,24 @@ object MetricsBuild extends Build {
     libraryDependencies ++= akkaDeps
   ).enablePlugins(PlayScala).dependsOn(common)
 
-  lazy val backend = project.settings(
-    libraryDependencies ++= akkaDeps
+  lazy val backend = Project("backend", file("backend"),
+    settings = assemblySettings ++ Seq(
+      libraryDependencies ++= akkaDeps
+    )
+
   ).dependsOn(common)
 
   lazy val common = project.settings(
     libraryDependencies ++= akkaDeps
   )
+}
+
+object Dependency {
+  object V {
+    val Akka         = "2.3.3"
+  }
+
+  val akkaKernel     = "com.typesafe.akka" %% "akka-kernel"  % V.Akka
+  val akkaCluster    = "com.typesafe.akka" %% "akka-actor"   % V.Akka
+  val akkaContrib    = "com.typesafe.akka" %% "akka-contrib" % V.Akka
 }
