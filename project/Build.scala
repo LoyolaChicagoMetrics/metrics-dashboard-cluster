@@ -1,8 +1,8 @@
+import com.typesafe.sbt.SbtNativePackager._
 import sbt._
 import sbt.Keys._
 import play.PlayScala
-import sbtassembly.Plugin._
-import AssemblyKeys._
+import NativePackagerKeys._
 
 object MetricsBuild extends Build {
 
@@ -11,7 +11,7 @@ object MetricsBuild extends Build {
   resolvers ++= Seq(
     Classpaths.typesafeReleases,
     Classpaths.typesafeSnapshots,
-    "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/"
+    "Akka Snapshot Repository" at "http://repo.akka.io/snapshots/com/typesafe/akka/"
   )
 
   val akkaDeps = Seq(
@@ -24,17 +24,20 @@ object MetricsBuild extends Build {
     libraryDependencies ++= akkaDeps
   ).enablePlugins(PlayScala).dependsOn(common)
 
-  lazy val backend = Project("backend", file("backend"),
-    settings = assemblySettings ++ Seq(
-      libraryDependencies ++= akkaDeps
-    )
-
+  lazy val backend = Project("backend", file("backend")).settings(
+    name := """hello-kernel""",
+    mainClass in Compile := Some("backend.Kernel"),
+    libraryDependencies ++= akkaDeps
+  ).settings(
+    packageArchetype.akka_application: _*
   ).dependsOn(common)
 
   lazy val common = project.settings(
     libraryDependencies ++= akkaDeps
   )
 }
+
+
 
 object Dependency {
   object V {
