@@ -41,7 +41,7 @@ object MetricsBuild extends Build {
 
 object Dependency {
   object V {
-    val Akka         = "2.3.3"
+    val Akka         = "2.3.4"
   }
 
   val akkaKernel     = "com.typesafe.akka" %% "akka-kernel"  % V.Akka
