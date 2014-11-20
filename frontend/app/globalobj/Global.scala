@@ -14,6 +14,6 @@ object Global extends GlobalSettings {
     */
    override def onStart(app: Application) {
 
-     TransformationFrontend.main(Seq("0").toArray)
+     TransformationFrontend.main(Array.empty)
    }
  }
