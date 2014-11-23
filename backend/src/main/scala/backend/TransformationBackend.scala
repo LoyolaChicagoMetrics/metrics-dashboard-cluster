@@ -31,7 +31,6 @@ class TransformationBackend extends Actor {
       context.actorSelection(RootActorPath(member.address) / "user" / "frontend") !
         BackendRegistration
 }
-//#backend
 
 object TransformationBackend {
   def main(args: Array[String]): Unit = {

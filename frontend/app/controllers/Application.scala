@@ -13,10 +13,6 @@ object Application extends Controller {
   // used for parsing the POST
   implicit val rds = (__ \ 'repo).read[String]
 
-
-
-
-
   def index = Action(parse.tolerantJson) {
     request => request.body.validate[String].map {
       case repoName =>
